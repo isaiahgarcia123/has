@@ -1,0 +1,4 @@
+const flashlight = new THREE.SpotLight(0xffffff, 2, 20, Math.PI / 6, 0.1, 1);
+flashlight.position.set(0, 1.5, 0);
+camera.add(flashlight);
+scene.add(camera);
