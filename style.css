@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+#emf {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: lime;
+  font-family: monospace;
+  font-size: 24px;
+}
